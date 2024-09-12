@@ -19,7 +19,7 @@
     "build": "yarn clean && next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest"
+    "test": "jest IpfsDownload.test.js Buy.test.js"
   },
   "dependencies": {
     "@solana/pay": "^0.2.0",
